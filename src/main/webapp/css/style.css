@@ -1,0 +1,24 @@
+@charset "ISO-8859-1";
+
+body
+{
+	background-color: #b3b3ff;
+	margin:0px;
+}
+
+ul.contents
+{
+	font-size: 25px;
+	color: #000080;
+	text-align: center;
+	line-height: 2.0;
+	list-style-image:url('/SportsPortal/images/icons8-user-40.png');
+}
+
+.heading
+{
+	color:white;
+	text-align: center;
+	text-decoration: underline;
+	margin: 0px;
+}

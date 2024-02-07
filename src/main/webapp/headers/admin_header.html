@@ -1,0 +1,90 @@
+<style>
+
+.nav-link
+{
+  color: #c00cc0;
+  font-size: 17px;
+  font-family: cursive;
+}
+
+.dropdown-item
+{
+   color: #c00cc0;
+}
+
+a:hover
+{
+   color: brown!important  /* !important is written to forcefully override predefined value */
+}
+
+</style>
+
+
+<nav class=" sticky-top navbar navbar-expand-lg" style="background-color: cyan">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Sports Portal</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"><i class='fas fa-home' style="color: red;"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/SportsPortal/admin/view_feedback.jsp">View Feedback</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/SportsPortal/admin/view_memberfeedback.jsp">View Member Feedback</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/SportsPortal/admin/view_contact.jsp">View Contacts</a>
+        </li>
+        
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="/SportsPortal/jsp/login.jsp">Login</a>
+        </li> -->
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Plans
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/SportsPortal/admin/plan.jsp">Add Plan</a></li>
+            <li><a class="dropdown-item" href="#">View Plan</a></li>
+            <!-- <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+          </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Events
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/SportsPortal/admin/event.jsp">Add Event</a></li>
+            <li><a class="dropdown-item" href="#">View Event</a></li>
+            <!-- <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+          </ul>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/SportsPortal/AdminLogout">Log Out</a>
+        </li>
+        
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+      
+    </div>
+  </div>
+</nav>
